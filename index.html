@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mystic Spirit Designs</title>
+  <style>
+    :root {
+      --deep-blue: #1c2541;
+      --lavender: #b39ddb;
+      --mid-blue: #3a506b;
+      --gold: #d4af37;
+      --white: #f8f9fa;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--deep-blue);
+      color: var(--white);
+    }
+
+    header {
+      background-color: var(--mid-blue);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: var(--lavender);
+      font-size: 2rem;
+    }
+
+    .logo {
+      height: 200px;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: var(--gold);
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to bottom, var(--lavender), var(--deep-blue));
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+      color: var(--white);
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h3 {
+      color: var(--lavender);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--gold);
+      display: inline-block;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .product-card {
+      background-color: var(--mid-blue);
+      border: 2px solid var(--gold);
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+
+    .product-card h4 {
+      margin: 0.5rem 0;
+      color: var(--gold);
+      font-size: 1.5rem;
+    }
+
+    .contact {
+      background-color: var(--mid-blue);
+      padding: 2rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--deep-blue);
+      color: var(--lavender);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./img/MysticSpiritDesignsLogoFull.png" alt="Mystic Spirit Designs Logo" class="logo"/>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Enchant Your World</h2>
+    <p>Whimsical and mystical creations—from stickers to pins—designed to bring a spark of magic to your everyday life.</p>
+  </section>
+
+  <section class="section" id="about">
+    <h3>About Us</h3>
+    	<p><b>Mystic Spirit Designs</b> is a creative haven where imagination meets artistry. We specialize in crafting high-quality, self-drawn merchandise inspired by anime, comic book icons, and fantastical worlds. From vibrant stickers and enamel pins to unique art prints, keychains, t-shirts, bucket hats, and tote bags—each item is infused with a touch of magic and a whole lot of heart.</p>
+		<p>Rooted in a deep love for storytelling and visual expression, our designs celebrate bold characters, mystical themes, and the spirit of fandom. Whether you're looking to decorate your space, your wardrobe, or your convention hauls, <b>Mystic Spirit Designs</b> offers a piece of fantasy you can carry with you.</p>
+		<p>You can find us online or in person at conventions throughout the year, where we love meeting fellow fans and sharing the creative energy that brings our work to life. Welcome to the world of <b>Mystic Spirit Designs</b>—where art and adventure collide!</p>
+  </section>
+
+  <section class="section" id="products">
+    <h3>Our Products</h3>
+    <div class="products">
+      <div class="product-card">
+        <img src="img/ComingSoon.png" alt="Stickers">
+        <h4>Stickers</h4>
+        <p>Whimsical designs to brighten any surface.</p>
+      </div>
+      <div class="product-card">
+        <img src="img/ComingSoon.png" alt="Enamel Pins">
+        <h4>Enamel Pins</h4>
+        <p>Magical flair to add to your collection.</p>
+      </div>
+      <div class="product-card">
+        <img src="img/ComingSoon.png" alt="Keychains / Charms">
+        <h4>Keychains / Charms</h4>
+        <p>Wander with Wonder.</p>
+      </div>
+    </div>
+    <div class="products">
+      <div class="product-card">
+        <img src="img/ComingSoon.png" alt="Miniature Figures">
+        <h4>Miniature Figures</h4>
+        <p>Tiny mythical companions for your desk or shelf.</p>
+      </div>
+      <div class="product-card">
+        <img src="img/ComingSoon.png" alt="Art Prints">
+        <h4>Art Prints</h4>
+        <p>Summon a story for your walls.</p>
+      </div>
+      <div class="product-card">
+        <img src="img/ComingSoon.png" alt="Apparel">
+        <h4>Apparel</h4>
+        <p>Wear your magic with pride.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Contact</h3>
+    <div class="contact">
+      <p>Have a question or custom request? Reach out via email:</p>
+      <p><a href="mailto:info@mysticspiritdesigns.com" style="color: var(--gold); font-weight: bold;">info@mysticspiritdesigns.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Mystic Spirit Designs. All rights reserved.
+  </footer>
+</body>
+</html>
